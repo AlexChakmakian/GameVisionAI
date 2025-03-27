@@ -1,6 +1,6 @@
 from ultralytics import YOLO ## import ultralyics and Yolo
 
-model = YOLO('yolov8x') ## Load the model and version
+model = YOLO('models/best.pt') ## Load the model and version
 
 results = model.predict('input_videos/08fd33_4.mp4', save=True, save_dir='C:/Users/alex/Desktop/GameVisionA') ## to save the video, set save = True and specify save_dir
 

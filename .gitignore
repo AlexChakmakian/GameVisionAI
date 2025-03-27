@@ -3,3 +3,7 @@
 # input_videos/
 
 yolov8x.pt
+models/best.pt
+models/last.pt
+output_videos/
+training/
